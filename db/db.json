@@ -1,0 +1,122 @@
+{
+  "ingredientes": {
+    "Massa": [
+      {
+        "id": 1,
+        "tipo": "Fina"
+      },
+      {
+        "id": 2,
+        "tipo": "Integral"
+      },
+      {
+        "id": 3,
+        "tipo": "Sem gluten"
+      },
+      {
+        "id": 4,
+        "tipo": "Normal"
+      }
+    ],
+    "Sabores": [
+      {
+        "id": 1,
+        "tipo": "Calabresa"
+      },
+      {
+        "id": 2,
+        "tipo": "4 queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Portuguesa"
+      },
+      {
+        "id": 4,
+        "tipo": "Marguerita"
+      },
+      {
+        "id": 5,
+        "tipo": "Mussarela"
+      },
+      {
+        "id": 6,
+        "tipo": "Frango com catupiry"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Borda com catupiry"
+      },
+      {
+        "id": 2,
+        "tipo": "Borda com cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Borda com catupiry e bacon"
+      },
+      {
+        "id": 4,
+        "tipo": "Borda de caramelo"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": "1",
+      "tipo": "Solicitado"
+    },
+    {
+      "id": "2",
+      "tipo": "Em produção"
+    },
+    {
+      "id": "3",
+      "tipo": "Finalizado"
+    }
+  ],
+  "pizzas": [
+    {
+      "id": "dc26",
+      "cliente": "fabrício",
+      "massa": "Tradicional",
+      "sabor": "Calabresa",
+      "bordaCatupiry": true,
+      "status": "Finalizado"
+    },
+    {
+      "id": "917b",
+      "cliente": "Matheus sales",
+      "massa": "Tradicional",
+      "sabor": "Calabresa",
+      "bordaCatupiry": false,
+      "status": "Em produção"
+    },
+    {
+      "id": "0824",
+      "cliente": "Matheus sales",
+      "massa": "Tradicional",
+      "sabor": "Calabresa",
+      "bordaCatupiry": false,
+      "status": "Solicitado"
+    },
+    {
+      "id": "21b7",
+      "cliente": "Matheus sales",
+      "massa": "Tradicional",
+      "sabor": "Calabresa",
+      "bordaCatupiry": false,
+      "status": "Solicitado"
+    },
+    {
+      "id": "9a45",
+      "cliente": "Matheus sales",
+      "massa": "Tradicional",
+      "sabor": "Calabresa",
+      "bordaCatupiry": false,
+      "status": "Solicitado"
+    }
+  ]
+}
